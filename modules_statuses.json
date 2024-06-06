@@ -1,0 +1,14 @@
+{
+	"About": true,
+	"Admin": true,
+	"Privacy": true,
+	"Setting": true,
+	"Slider": true,
+	"Term": true,
+	"Contact": true,
+	"Program": true,
+	"Service": true,
+	"Beneficiary": true,
+	"Center": true,
+	"ServiceDetail": true
+}
