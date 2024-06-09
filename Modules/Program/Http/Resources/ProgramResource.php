@@ -12,7 +12,7 @@ class ProgramResource extends BaseResource
             'id' => $this->id,
             'title' => $this['title_'.lang()],
             'desc' => $this['desc_'.lang()],
-            'image' => asset($this->image ?? setting('logo')),
+            'image' => asset($this->file ?? setting('logo')),
         ];
     }
     

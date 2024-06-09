@@ -10,5 +10,6 @@
 	"Service": true,
 	"Beneficiary": true,
 	"Center": true,
-	"ServiceDetail": true
+	"ServiceDetail": true,
+	"SliderHome": true
 }

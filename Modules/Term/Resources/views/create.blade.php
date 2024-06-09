@@ -14,11 +14,11 @@
         </div>
         <div class="col-md-6 col-sm-12">
             <label >@lang('trans.desc_ar')</label>
-            <textarea name="desc_ar" placeholder="@lang('trans.desc_ar')" class="form-control mceNoEditor"></textarea>
+            <textarea name="desc_ar" placeholder="@lang('trans.desc_ar')" class="form-control mceNoEditor editor"></textarea>
         </div>
         <div class="col-md-6 col-sm-12">
             <label >@lang('trans.desc_en')</label>
-            <textarea name="desc_en" placeholder="@lang('trans.desc_en')" class="form-control mceNoEditor"></textarea>
+            <textarea name="desc_en" placeholder="@lang('trans.desc_en')" class="form-control mceNoEditor editor"></textarea>
         </div>
 
         <div class="row">

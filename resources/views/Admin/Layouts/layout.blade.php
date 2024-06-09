@@ -22,7 +22,7 @@
         }
     </style>
 
-
+    <script src="https://cdn.ckeditor.com/4.17.0/standard/ckeditor.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="{{ asset('css/lineicons.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
@@ -61,6 +61,7 @@
 
                     <hr>
                     @include('slider::layouts.sidebar')
+                    @include('sliderHome::layouts.sidebar')
                     <hr>
                     @include('service::layouts.sidebar')
                     @include('beneficiary::layouts.sidebar')
@@ -202,6 +203,17 @@
     <script src="{{ asset('js/main.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
 
+    <!-- ckeditor -->
+    <script>
+        // Initialize CKEditor for all textarea elements with class 'editor'
+        document.addEventListener('DOMContentLoaded', function() {
+            var textareas = document.querySelectorAll('.editor');
+            for (var i = 0; i < textareas.length; i++) {
+                CKEDITOR.replace(textareas[i]);
+            }
+        });
+    </script>
+    <!-- ckeditor -->
     @yield('script')
 
     @yield('js')

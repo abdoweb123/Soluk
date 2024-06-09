@@ -10,19 +10,33 @@
     </tr>
     <tr>
         <td class="text-center">
-            {{ $Model['title_en'] }}
+            {{ $Model->program->title() }}
         </td>
         <td class="text-center">
-            {{ $Model['title_ar'] }}
+            {{ $Model->service->title() }}
+        </td>
+        <td class="text-center">
+            {{ $Model->beneficiary->title() }}
+        </td>
+    </tr>
+
+    <tr>
+        <td class="text-center">
+            {{ $Mode->center->title() }}
+        </td>
+
+        <td class="text-center">
+            {{ $Model['age_group_'.lang()] }}
+        </td>
+        <td class="text-center">
+            {{ $Model['age_range_'.lang()] }}
+        </td>
+        <td class="text-center">
+            {{ $Model['sessions_count_'.lang()] }}
         </td>
     </tr>
     <tr>
-        <td class="text-center">
-            {{ $Model['desc_en'] }}
-        </td>
-        <td class="text-center">
-            {{ $Model['desc_ar'] }}
-        </td>
+
     </tr>
 </table>
 

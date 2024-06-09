@@ -1,10 +1,10 @@
 <?php
 
-namespace Modules\Program\Http\Resources;
+namespace Modules\Service\Http\Resources;
 
 use App\Http\Resources\BaseResource;
 
-class ProgramResource extends BaseResource
+class ServiceResource extends BaseResource
 {
     public function toArray($request)
     {
@@ -12,7 +12,7 @@ class ProgramResource extends BaseResource
             'id' => $this->id,
             'title' => $this['title_'.lang()],
             'desc' => $this['desc_'.lang()],
-            'image' => asset($this->image ?? setting('logo')),
+            'image' => asset($this->file ?? setting('logo')),
         ];
     }
     

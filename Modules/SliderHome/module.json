@@ -1,0 +1,11 @@
+{
+    "name": "SliderHome",
+    "alias": "sliderHome",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SliderHome\\Providers\\SliderHomeServiceProvider"
+    ],
+    "files": []
+}

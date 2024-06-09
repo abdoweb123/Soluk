@@ -44,28 +44,28 @@
             </select>
         </div>
         <div class="col-md-6">
+            <label>@lang('trans.age_group_ar')</label>
+            <input type="text" name="age_group_ar" placeholder="جميع الفئات العمرية" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+            <label>@lang('trans.age_group_en')</label>
+            <input type="text" name="age_group_en" placeholder="All age groups" class="form-control" required>
+        </div>
+        <div class="col-md-6">
             <label>@lang('trans.age_range_ar')</label>
-            <input type="text" name="age_range_ar" placeholder="@lang('trans.age_range_ar')" class="form-control" required>
+            <input type="text" name="age_range_ar" placeholder="2-سنة - 45 سنة" class="form-control" required>
         </div>
         <div class="col-md-6">
             <label>@lang('trans.age_range_en')</label>
-            <input type="text" name="age_range_en" placeholder="@lang('trans.age_range_en')" class="form-control" required>
+            <input type="text" name="age_range_en" placeholder="2-year - 45 years" class="form-control" required>
         </div>
         <div class="col-md-6">
             <label>@lang('trans.sessions_count_ar')</label>
-            <input type="text" name="sessions_count_ar" placeholder="@lang('trans.sessions_count_ar')" class="form-control" required>
+            <input type="text" name="sessions_count_ar" placeholder="4-6 حصص (60 دقيقة لكل حصة)" class="form-control" required>
         </div>
         <div class="col-md-6">
             <label>@lang('trans.sessions_count_en')</label>
-            <input type="text" name="sessions_count_en" placeholder="@lang('trans.sessions_count_en')" class="form-control" required>
-        </div>
-        <div class="col-md-6">
-            <label>@lang('trans.session_duration_ar')</label>
-            <input type="text" name="session_duration_ar" placeholder="@lang('trans.session_duration_ar')" class="form-control" required>
-        </div>
-        <div class="col-md-6">
-            <label>@lang('trans.session_duration_en')</label>
-            <input type="text" name="session_duration_en" placeholder="@lang('trans.session_duration_en')" class="form-control" required>
+            <input type="text" name="sessions_count_en" placeholder="4-6 Sessions (60 minutes per class)" class="form-control" required>
         </div>
 
         <div class="row">

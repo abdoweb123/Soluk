@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 06, 2024 at 11:33 PM
+-- Generation Time: Jun 09, 2024 at 05:48 PM
 -- Server version: 10.6.16-MariaDB
 -- PHP Version: 8.1.26
 
@@ -43,7 +43,7 @@ CREATE TABLE `about` (
 --
 
 INSERT INTO `about` (`id`, `title_ar`, `title_en`, `desc_ar`, `desc_en`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'لماذا مركز سلوك للتأهيل والرعاية؟', 'Why Suluk Center for Rehabilitation and Care?', 'لوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل. لوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل.\r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل. لوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل.\r\nلوريم إيبسوم:\r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم:\r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل.', 'Lorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl. Lorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl.\r\nLorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl. Lorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl.\r\nLorem Ipsum:\r\nLorem ipsum dolor sit amit constructor. \r\nLorem ipsum dolor sit amit constructor. \r\nLorem ipsum dolor sit amit constructor. \r\nLorem Ipsum:\r\nLorem ipsum dolor sit amit constructor. \r\nLorem ipsum dolor sit amit constructor. \r\nLorem ipsum dolor sit amit constructor. \r\nLorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl.', 1, '2023-11-12 09:09:43', '2024-06-06 14:03:01');
+(1, 'لماذا مركز سلوك للتأهيل والرعاية؟', 'Why Suluk Center for Rehabilitation and Care?', '<p>تأتي مراكز سلوك بجيل جديد من مركز الرعاية النهارية والذي يختص بتعديل وتنمية وتشكيل السلوك واستحداث برامج فعالة لاكتشاف القدرات الكامنة لدي أبنائنا وتطويرها لتمكنيهم كأشخاص فاعلين بالمجتمع.<br />\r\nمركز سلوك لجيل جديد ورؤية جديدة وتقديم نموذج ناجح يحقق نجاحات متعددة دائماز<br />\r\n<strong>رسالتنا</strong><br />\r\nتقديم تدريب فعال وهادف يعمل علي اطفاء السلوك السلبي وتنمية السلوك الأيجابي وتشكيل سلوكيات ومهارات ايجابية جديدة<br />\r\n<strong>رؤيتنا</strong><br />\r\nتقديم رواد لجيل جديد من مراكز الرعاية والتأهيل<br />\r\nمركز سلوك لجيل جديد ورؤية جديدة وتقديم نموذج ناجح يحقق نجاحات متعددة دائماز</p>', '<p>Suluk Centers bring a new generation of day care centers that specialize in modifying, developing and shaping behavior and creating effective programs to discover the latent capabilities of our children and develop them to empower them as active individuals in society.<br />\r\nA behavior center for a new generation, a new vision, and presenting a successful model that achieves multiple successes<br />\r\n<strong>Our message</strong><br />\r\nProviding effective and purposeful training that works to extinguish negative behavior, develop positive behavior, and form new positive behaviors and skills.<br />\r\n<strong>Our vision</strong><br />\r\nProviding pioneers for a new generation of care and rehabilitation centres<br />\r\nA behavior center for a new generation, a new vision, and presenting a successful model that achieves multiple successes</p>', 1, '2023-11-12 09:09:43', '2024-06-09 06:49:58');
 
 -- --------------------------------------------------------
 
@@ -240,7 +240,7 @@ CREATE TABLE `privacy` (
 --
 
 INSERT INTO `privacy` (`id`, `title_ar`, `title_en`, `desc_ar`, `desc_en`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'سياسة الخصوصية لمركز سلوك للتأهيل والرعاية', 'Privacy Policy for Suluk Center for Rehabilitation and Care', 'لوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل. لوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل.\r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل. لوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل.\r\nلوريم إيبسوم:\r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل.', 'Lorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl. Lorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl.\r\nLorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl. Lorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl.\r\nLorem Ipsum:\r\nLorem ipsum dolor sit amit constructor. \r\nLorem ipsum dolor sit amit constructor. \r\nLorem ipsum dolor sit amit constructor. \r\nLorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl.', 1, '2023-11-12 09:09:43', '2024-06-06 14:06:19');
+(1, 'سياسة الخصوصية لمركز سلوك للتأهيل والرعاية', 'Privacy Policy for Suluk Center for Rehabilitation and Care', '<p>تعتبر الخصوصية وحماية المعلومات الشخصية من أهم الأولويات في مركز سلوك للتأهيل والرعاية. ندرك تماماً أهمية الخصوصية لمرضانا وعائلاتهم، ونسعى لضمان حماية المعلومات الشخصية بطريقة تتوافق مع أفضل المعايير والممارسات الدولية.<br />\r\nتهدف هذه السياسة إلى توضيح كيفية جمع، استخدام، ومشاركة المعلومات الشخصية، بالإضافة إلى حقوق الأفراد فيما يتعلق بمعلوماتهم.<br />\r\n<strong>سياسة الخصوصية</strong></p>\r\n\r\n<ul>\r\n	<li>حماية المعلومات الشخصية</li>\r\n	<li>تقديم الرعاية الصحية و تواصل مع المرضى وأسرهم بشكل مستمر</li>\r\n</ul>\r\n\r\n<p>قد نقوم بتحديث سياسة الخصوصية من وقت لآخر لتعكس التغييرات في ممارساتنا أو القوانين المعمول بها.</p>', '<p>Privacy and protection of personal information are among the most important priorities at Suluk Rehabilitation and Care Center. We fully recognize the importance of privacy to our patients and their families, and we strive to ensure that personal information is protected in a manner consistent with best international standards and practices.<br />\r\nThis policy aims to explain how we collect, use and share personal information, as well as the rights of individuals in relation to their information.<br />\r\n<strong>privacy policy</strong></p>\r\n\r\n<ul>\r\n	<li>Protection of personal information</li>\r\n	<li>Providing health care and communicating with patients and their families on an ongoing basis</li>\r\n</ul>\r\n\r\n<p>We may update this Privacy Policy from time to time to reflect changes in our practices or applicable laws.</p>', 1, '2023-11-12 09:09:43', '2024-06-09 06:53:05');
 
 -- --------------------------------------------------------
 
@@ -266,12 +266,12 @@ CREATE TABLE `programs` (
 
 INSERT INTO `programs` (`id`, `title_ar`, `title_en`, `desc_ar`, `desc_en`, `file`, `status`, `created_at`, `updated_at`) VALUES
 (7, 'برنامج النطق والتخاطب', 'Speech and communication programme', 'برنامج علاج النطق (التخاطب) يتم النظر إليه على مستوى إعاقة الطفل و مشكلة التخاطب لديه كما يتم التركيز على قدرات البلع لدى الطفل و مستوى تطور الكلام والتواصل مع من حوله و على السلوك و التعلم و مشاكل الكلام و التعبير و غيرها من الشركاء .', 'The speech therapy program looks at the level of the child’s disability and his communication problem. It also focuses on the child’s swallowing abilities, the level of speech development, communication with those around him, behavior, learning, speech and expression problems, and other partners.', '/uploads/Programs/1717621481_2193.jpg', 1, '2024-06-05 21:04:41', '2024-06-05 21:04:41'),
-(8, 'برنامج الخدمات النفسية', 'Psychological services program', 'تمثل عملية القياس أهمية جوهرية في رصد التقدم العلمي للظواهر وتطورها ، حيث تقيس عددا كبيرا من الظواهر النفسية ، ففي المجال العقلي – المعرفي Cognitive - Domain نقيس العمليات العقلية مثل التعلم ، التفكير، التذكر وكذلك نقيس القدرات العقلية العامة . ( الذكاء ) ، الاستعدادات والقدرات مثل : القدرة الرياضية، والقدرة اللغوية.....إلخ. وفي المجال الانفعالي – الوجداني Affective – Domain نقيس الميول ، الاتجاهات ، والقيم وبعض سمات الشخصية.', 'The measurement process represents fundamental importance in monitoring the scientific progress and development of phenomena, as it measures a large number of psychological phenomena. In the mental-cognitive domain, we measure mental processes such as learning, thinking, and remembering, as well as general mental abilities. (Intelligence), aptitudes and abilities such as: mathematical ability, linguistic ability...etc. In the Affective - Domain, we measure inclinations, trends, values, and some personality traits.', '/uploads/Programs/1717670399_1768.jpg', 1, '2024-06-05 21:05:57', '2024-06-06 10:39:59'),
+(8, 'برنامج الخدمات النفسية', 'Psychological services program', 'تمثل عملية القياس أهمية جوهرية في رصد التقدم العلمي للظواهر وتطورها ، حيث تقيس عددا كبيرا من الظواهر النفسية ، ففي المجال العقلي – المعرفي Cognitive - Domain نقيس العمليات العقلية مثل التعلم ، التفكير، التذكر وكذلك نقيس القدرات العقلية العامة . ( الذكاء ) ، الاستعدادات والقدرات مثل : القدرة الرياضية، والقدرة اللغوية.....إلخ. وفي المجال الانفعالي – الوجداني Affective – Domain نقيس الميول ، الاتجاهات ، والقيم وبعض سمات الشخصية.', 'The measurement process represents fundamental importance in monitoring the scientific progress and development of phenomena, as it measures a large number of psychological phenomena. In the mental-cognitive domain, we measure mental processes such as learning, thinking, and remembering, as well as general mental abilities. (Intelligence), aptitudes and abilities such as: mathematical ability, linguistic ability...etc. In the Affective - Domain, we measure inclinations, trends, values, and some personality traits.', '/uploads/Programs/1717941118_1186.jpg', 1, '2024-06-05 21:05:57', '2024-06-09 13:51:58'),
 (9, 'برنامج العلاج الوظيفي', 'Occupational therapy program', 'إن الهدف الرئيسي لمهنة العلاج الوظيفي هو تمكين الأشخاص ذوي الإعاقة من القيام بوظائفهم اليومية بشكل آمن وبدرجة عالية من الاعتماد على الذات والتي تعطي معنى وهدف لحياتهم وتساعد على دمجهم ومشاركتهم في المجتمع بشكل فعال.', 'The main goal of the occupational therapy profession is to enable people with disabilities to carry out their daily functions safely and with a high degree of self-reliance, which gives meaning and purpose to their lives and helps to integrate them and participate effectively in society.', '/uploads/Programs/1717621611_9620.jpg', 1, '2024-06-05 21:06:51', '2024-06-05 21:06:51'),
 (10, 'برنامج المهارات التدريبية', 'Training skills programme', 'يعتبر التطوير الشخصي والمهني أمرًا أساسيًا في سبيل تحقيق النجاح في بيئة العمـل المتطورة والمتغيرة باستمرار. وفي هذا السياق، تبرز أهمـية البرامـج التدريبيه كأداة فعّالة لتطوير المهارات وتحسـين أداء الأفراد والمؤسسات. يعد هذا المقال استكشافًا لمفهوم البرامـج التدريبيـة والأهداف التي تسعى لتحقيقها، بالإضافة إلى فحص الأنواع المتنوعة لهذه البرامـج وكيفية تأثيرها على تطويـر القوى العاملة.', 'Personal and professional development is essential to achieving success in a constantly evolving and changing work environment. In this context, the importance of training programs is highlighted as an effective tool for developing skills and improving the performance of individuals and institutions. This article is an exploration of the concept of training programs and the goals they seek to achieve, in addition to examining the various types of these programs and how they impact workforce development.', '/uploads/Programs/1717621678_7016.jpg', 1, '2024-06-05 21:07:58', '2024-06-05 21:07:58'),
-(11, 'برنامج العلاج الطبيعي', 'Physical therapy program', 'العلاج الطبيعي هو فن وعلم يسهم في تطوير الصحة ومنع المرض من خلال فهم حركة الجسم، وهو يعمل على تصحيح وتخفيف آثار المرض والاصابة، وتشتمل الوسائل على التقييم والعلاج للمرضى والادارة والاشراف لخدمات العلاج الطبيعي والعاملين به، ومشاورة الانظمة الصحية الأخرى وإعداد السجلات والتقارير، والمشاركة في التخطيط للمجتمع والمشروعات ...', 'Physical therapy is an art and science that contributes to developing health and preventing disease through understanding body movement. It works to correct and mitigate the effects of disease and injury. Methods include evaluation and treatment of patients, management and supervision of physical therapy services and its workers, consulting other health systems, preparing records and reports, and participating in Community and project planning...', '/uploads/Programs/1717670373_8664.jpg', 1, '2024-06-05 21:09:04', '2024-06-06 10:39:33'),
+(11, 'برنامج العلاج الطبيعي', 'Physical therapy program', 'العلاج الطبيعي هو فن وعلم يسهم في تطوير الصحة ومنع المرض من خلال فهم حركة الجسم، وهو يعمل على تصحيح وتخفيف آثار المرض والاصابة، وتشتمل الوسائل على التقييم والعلاج للمرضى والادارة والاشراف لخدمات العلاج الطبيعي والعاملين به، ومشاورة الانظمة الصحية الأخرى وإعداد السجلات والتقارير، والمشاركة في التخطيط للمجتمع والمشروعات ...', 'Physical therapy is an art and science that contributes to developing health and preventing disease through understanding body movement. It works to correct and mitigate the effects of disease and injury. Methods include evaluation and treatment of patients, management and supervision of physical therapy services and its workers, consulting other health systems, preparing records and reports, and participating in Community and project planning...', '/uploads/Programs/1717941142_5728.jpg', 1, '2024-06-05 21:09:04', '2024-06-09 13:52:22'),
 (12, 'برنامج الرعاية النهارية', 'Day care program', 'سيساعدك البرنامج لرعاية الأطفال على إدارة رعاية الأطفال ، وتحسين التكلفة ، والحصول على المزيد من القبول ، وزيادة الربحية من خلال نظام إدارة رعاية الأطفال المتكامل وسهل الاستخدام.', 'Childcare software will help you manage childcare, optimize cost, gain more acceptance, and increase profitability with our integrated, easy-to-use childcare management system.', '/uploads/Programs/1717621819_7114.jpg', 1, '2024-06-05 21:10:19', '2024-06-05 21:10:19'),
-(13, 'برنامج الصحة', 'Health programme', 'حافظ على لياقتك البدنية واستمتع بنمط حياة أكثر صحة. يسجل تطبيق الصحة من هواوي نشاطك في أكثر من 100 رياضة مختلفة، من مستوى المبتدئين إلى المستويات المتقدمة. شاهد بيانات التدريب بوضوح خلال كل خطوة من خطوات مسيرتك، بحيث يتسنى لك التأكد من أنك تحقق أهدافك. ادخل عالم اللياقة البدنية الرائع الذي فتح أبوابه على مصراعيها لك.', 'Stay fit and live a healthier lifestyle. The Huawei Health app records your activity in more than 100 different sports, from beginner to advanced levels. See training data clearly at every step of your journey, so you can be sure you\'re achieving your goals. Enter the wonderful world of fitness that has opened its doors wide for you.', '/uploads/Programs/1717670433_7905.jpg', 1, '2024-06-05 21:11:24', '2024-06-06 10:40:33'),
+(13, 'برنامج الصحة', 'Health programme', 'حافظ على لياقتك البدنية واستمتع بنمط حياة أكثر صحة. يسجل تطبيق الصحة من هواوي نشاطك في أكثر من 100 رياضة مختلفة، من مستوى المبتدئين إلى المستويات المتقدمة. شاهد بيانات التدريب بوضوح خلال كل خطوة من خطوات مسيرتك، بحيث يتسنى لك التأكد من أنك تحقق أهدافك. ادخل عالم اللياقة البدنية الرائع الذي فتح أبوابه على مصراعيها لك.', 'Stay fit and live a healthier lifestyle. The Huawei Health app records your activity in more than 100 different sports, from beginner to advanced levels. See training data clearly at every step of your journey, so you can be sure you\'re achieving your goals. Enter the wonderful world of fitness that has opened its doors wide for you.', '/uploads/Programs/1717941157_3914.jpg', 1, '2024-06-05 21:11:24', '2024-06-09 13:52:37'),
 (14, 'برنامج الارشاد الاجتماعى', 'Social guidance program', 'يهدف برنامج الإرشاد النفسي /الاجتماعي  إلى مساعدة الطالب, لكي يفهم شخصيته ويعرف قدراته, ويحل مشكلاته في إطار التعاليم الإسلامية,ليصل إلى تحقيق التوافق النفسي والتربوي والمهني والاجتماعي وبالتالي يصل إلى تحقيق أهدافه في إطار الأهداف العامة للتعليم .', 'The psychological/social counseling program aims to help the student understand his personality, know his abilities, and solve his problems within the framework of Islamic teachings, in order to achieve psychological, educational, professional, and social compatibility and thus achieve his goals within the framework of the general goals of education.', '/uploads/Programs/1717621958_7455.jpg', 1, '2024-06-05 21:12:38', '2024-06-05 21:12:38');
 
 -- --------------------------------------------------------
@@ -310,12 +310,12 @@ CREATE TABLE `service_details` (
   `program_id` bigint(20) NOT NULL,
   `service_id` bigint(20) NOT NULL,
   `beneficiary_id` bigint(20) NOT NULL,
+  `age_group_ar` varchar(255) NOT NULL,
+  `age_group_en` varchar(255) NOT NULL,
   `age_range_en` varchar(255) NOT NULL,
   `age_range_ar` varchar(255) NOT NULL,
   `sessions_count_en` varchar(255) NOT NULL,
   `sessions_count_ar` varchar(255) NOT NULL,
-  `session_duration_en` varchar(255) NOT NULL,
-  `session_duration_ar` varchar(255) NOT NULL,
   `center_id` bigint(20) NOT NULL,
   `status` tinyint(1) NOT NULL DEFAULT 1,
   `created_at` timestamp NULL DEFAULT NULL,
@@ -326,9 +326,13 @@ CREATE TABLE `service_details` (
 -- Dumping data for table `service_details`
 --
 
-INSERT INTO `service_details` (`id`, `program_id`, `service_id`, `beneficiary_id`, `age_range_en`, `age_range_ar`, `sessions_count_en`, `sessions_count_ar`, `session_duration_en`, `session_duration_ar`, `center_id`, `status`, `created_at`, `updated_at`) VALUES
-(1, 7, 19, 21, 'Age Range', '', 'Sessions Count', '', 'Session Duration', '', 22, 1, '2024-06-06 12:31:12', '2024-06-06 13:18:28'),
-(2, 13, 15, 20, 'All age groups', 'جميع الفئات العمرية', '4-6 Sessions', '4-6 حصص', '(60 minutes per class)', '(60 دقيقة لكل حصة)', 22, 1, '2024-06-06 13:33:34', '2024-06-06 13:33:34');
+INSERT INTO `service_details` (`id`, `program_id`, `service_id`, `beneficiary_id`, `age_group_ar`, `age_group_en`, `age_range_en`, `age_range_ar`, `sessions_count_en`, `sessions_count_ar`, `center_id`, `status`, `created_at`, `updated_at`) VALUES
+(1, 7, 19, 21, 'جميع الفئات العمرية', 'All age groups', '2-year - 45 years', '2-سنة - 45 سنة', '4-6 Sessions (60 minutes per class)', '4-6 حصص (60 دقيقة لكل حصة)', 22, 1, '2024-06-06 12:31:12', '2024-06-06 13:18:28'),
+(2, 13, 15, 20, 'جميع الفئات العمرية', 'All age groups', '2-year - 45 years', '2-سنة - 45 سنة', '4-6 Sessions (60 minutes per class)', '4-6 حصص (60 دقيقة لكل حصة)', 22, 1, '2024-06-06 13:33:34', '2024-06-09 07:20:38'),
+(3, 8, 19, 21, 'جميع الفئات العمرية', 'All age groups', '2-year - 45 years', '2-سنة - 45 سنة', '4-6 Sessions (60 minutes per class)', '4-6 حصص (60 دقيقة لكل حصة)', 22, 1, '2024-06-06 12:31:12', '2024-06-06 13:18:28'),
+(4, 11, 15, 20, 'جميع الفئات العمرية', 'All age groups', '2-year - 45 years', '2-سنة - 45 سنة', '4-6 Sessions (60 minutes per class)', '4-6 حصص (60 دقيقة لكل حصة)', 22, 1, '2024-06-06 13:33:34', '2024-06-09 07:20:38'),
+(5, 11, 15, 20, 'الرجال', 'mens', '2-year - 45 years', '2-سنة - 45 سنة', '4-6 Sessions (60 minutes per class)', '4-6 حصص (60 دقيقة لكل حصة)', 22, 1, '2024-06-06 13:33:34', '2024-06-09 07:20:38'),
+(6, 14, 19, 21, 'جميع الفئات العمرية', 'All age groups', '2-year - 45 years', '2-سنة - 45 سنة', '4-6 Sessions (60 minutes per class)', '4-6 حصص (60 دقيقة لكل حصة)', 22, 1, '2024-06-09 14:36:03', '2024-06-09 14:36:03');
 
 -- --------------------------------------------------------
 
@@ -375,6 +379,33 @@ INSERT INTO `settings` (`id`, `key`, `value`, `type`, `status`, `created_at`, `u
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `SliderHome`
+--
+
+CREATE TABLE `SliderHome` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `title_ar` varchar(255) DEFAULT NULL,
+  `title_en` varchar(255) DEFAULT NULL,
+  `file` varchar(255) DEFAULT NULL,
+  `link` varchar(255) DEFAULT NULL,
+  `status` tinyint(1) NOT NULL DEFAULT 1,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `SliderHome`
+--
+
+INSERT INTO `SliderHome` (`id`, `title_ar`, `title_en`, `file`, `link`, `status`, `created_at`, `updated_at`) VALUES
+(14, 'هدفنا هو دعم الأفراد بالخدمات النفسية. أشترك في البرنامج التأهيلي معنا هدفنا هو دعم الأفراد بالخدمات النفسية', 'Our goal is to support individuals with psychological services. Participate in the rehabilitation program with us. Our goal is to support individuals with psychological services', '/uploads/SliderHome/1717939804_6413.png', NULL, 1, '2024-06-09 13:05:20', '2024-06-09 13:30:04'),
+(15, 'هدفنا هو دعم الأفراد بالخدمات النفسية. أشترك في البرنامج التأهيلي معنا تواصل معانا', 'Our goal is to support individuals with psychological services. Participate in the rehabilitation program with us. Our goal is to support individuals with psychological services', '/uploads/SliderHome/1717939789_7683.png', NULL, 1, '2024-06-09 13:05:56', '2024-06-09 13:29:49'),
+(16, 'هدفنا هو دعم الأفراد بالخدمات النفسية. أشترك في البرنامج التأهيلي معنا هدفنا هو دعم الأفراد بالخدمات النفسية', 'Our goal is to support individuals with psychological services. Participate in the rehabilitation program with us. Our goal is to support individuals with psychological services', '/uploads/SliderHome/1717939775_7809.png', NULL, 1, '2024-06-09 13:06:11', '2024-06-09 13:29:35'),
+(17, 'هدفنا هو دعم الأفراد بالخدمات النفسية. أشترك في البرنامج التأهيلي معنا هدفنا هو دعم الأفراد بالخدمات النفسية', 'Our goal is to support individuals with psychological services. Participate in the rehabilitation program with us. Our goal is to support individuals with psychological services', '/uploads/SliderHome/1717939750_2976.png', NULL, 1, '2024-06-09 13:06:30', '2024-06-09 13:29:10');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `sliders`
 --
 
@@ -398,8 +429,7 @@ CREATE TABLE `sliders` (
 INSERT INTO `sliders` (`id`, `title_ar`, `title_en`, `desc_ar`, `desc_en`, `file`, `link`, `status`, `created_at`, `updated_at`) VALUES
 (4, 'مرحبًا بك في مجتمع الرعاية الخاص بنا', 'Welcome to our caring community', 'نوضح كيفية تمكين التعاطف والدعم المتبادل لمقدمي الرعاية لفهم الاحتياجات العاطفية والجسدية.', 'We demonstrate how empathy and mutual support enable caregivers to understand emotional and physical needs.', NULL, NULL, 1, '2024-06-05 17:41:07', '2024-06-05 17:41:07'),
 (5, 'مرحبًا بك في مجتمع الرعاية الخاص بنا', 'Welcome to our caring community', 'نوضح كيفية تمكين التعاطف والدعم المتبادل لمقدمي الرعاية لفهم الاحتياجات العاطفية والجسدية.', 'We demonstrate how empathy and mutual support enable caregivers to understand emotional and physical needs.', NULL, NULL, 1, '2024-06-05 17:41:07', '2024-06-05 17:41:07'),
-(6, 'مرحبًا بك في مجتمع الرعاية الخاص بنا', 'Welcome to our caring community', 'نوضح كيفية تمكين التعاطف والدعم المتبادل لمقدمي الرعاية لفهم الاحتياجات العاطفية والجسدية.', 'We demonstrate how empathy and mutual support enable caregivers to understand emotional and physical needs.', NULL, NULL, 1, '2024-06-05 17:42:55', '2024-06-05 17:42:55'),
-(13, 'مرحبًا بك في مجتمع الرعاية الخاص بنا', 'Welcome to our caring community', 'نوضح كيفية تمكين التعاطف والدعم المتبادل لمقدمي الرعاية لفهم الاحتياجات العاطفية والجسدية.', 'We demonstrate how empathy and mutual support enable caregivers to understand emotional and physical needs.', NULL, NULL, 1, '2024-06-05 17:42:55', '2024-06-05 17:42:55');
+(6, 'مرحبًا بك في مجتمع الرعاية الخاص بنا', 'Welcome to our caring community', 'نوضح كيفية تمكين التعاطف والدعم المتبادل لمقدمي الرعاية لفهم الاحتياجات العاطفية والجسدية.', 'We demonstrate how empathy and mutual support enable caregivers to understand emotional and physical needs.', NULL, NULL, 1, '2024-06-05 17:42:55', '2024-06-05 17:42:55');
 
 -- --------------------------------------------------------
 
@@ -423,7 +453,7 @@ CREATE TABLE `terms` (
 --
 
 INSERT INTO `terms` (`id`, `title_ar`, `title_en`, `desc_ar`, `desc_en`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'الشروط والأحكام لمركز سلوك للتأهيل والرعاية', 'Terms and conditions for Suluk Rehabilitation and Care Centre', 'لوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل. لوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل.\r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل. لوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل.\r\nلوريم إيبسوم:\r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. \r\nلوريم إيبسوم دولور الجلوس أميت كونسيكتور. جوستو نيسي نيبه في نيسل.', 'Lorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl. Lorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl.\r\nLorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl. Lorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl.\r\nLorem Ipsum:\r\nLorem ipsum dolor sit amit constructor. \r\nLorem ipsum dolor sit amit constructor. \r\nLorem ipsum dolor sit amit constructor. \r\nLorem ipsum dolor sit amit constructor. Gusto Nissi Nipah in Nisl.', 1, '2023-11-12 12:09:43', '2024-06-06 14:08:03');
+(1, 'الشروط والأحكام لمركز سلوك للتأهيل والرعاية', 'Terms and conditions for Suluk Rehabilitation and Care Centre', '<p>يعد مركز سلوك للتأهيل والرعاية مؤسسة رائدة في تقديم خدمات الرعاية الصحية والتأهيلية، ملتزمين بتوفير بيئة آمنة وفعالة لمرضانا. تهدف هذه الوثيقة إلى توضيح الشروط والأحكام التي تحكم استخدام خدماتنا والموقع الإلكتروني الخاص بنا.<br />\r\nمن خلال الوصول إلى خدماتنا أو استخدامها، فإنك توافق على الالتزام بهذه الشروط والأحكام.<br />\r\n<strong>الشروط و الأحكام</strong></p>\r\n\r\n<ul>\r\n	<li>التعديلات على الشروط والأحكام</li>\r\n	<li>الالتزامات والمسؤوليات</li>\r\n	<li>السرية والخصوصية</li>\r\n</ul>\r\n\r\n<p>نشكرك على اختيار مركز سلوك للتأهيل والرعاية. نأمل أن تلبي خدماتنا توقعاتك ونؤكد التزامنا بتقديم أفضل مستويات الرعاية الصحية والتأهيلية.</p>', '<p>Suluk Rehabilitation and Care Center is a leading institution in providing health and rehabilitation care services, committed to providing a safe and effective environment for our patients. This document aims to explain the terms and conditions governing the use of our services and website.<br />\r\nBy accessing or using our Services, you agree to be bound by these Terms and Conditions.<br />\r\n<strong>Terms and Conditions</strong></p>\r\n\r\n<ul>\r\n	<li>Amendments to terms and conditions</li>\r\n	<li>Obligations and responsibilities</li>\r\n	<li>Confidentiality and privacy</li>\r\n</ul>\r\n\r\n<p>Thank you for choosing Suluk Center for Rehabilitation and Care. We hope that our services meet your expectations and we affirm our commitment to providing the best levels of health and rehabilitation care.</p>', 1, '2023-11-12 12:09:43', '2024-06-09 06:52:23');
 
 --
 -- Indexes for dumped tables
@@ -500,6 +530,12 @@ ALTER TABLE `service_details`
 -- Indexes for table `settings`
 --
 ALTER TABLE `settings`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `SliderHome`
+--
+ALTER TABLE `SliderHome`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -582,13 +618,19 @@ ALTER TABLE `services`
 -- AUTO_INCREMENT for table `service_details`
 --
 ALTER TABLE `service_details`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `settings`
 --
 ALTER TABLE `settings`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
+
+--
+-- AUTO_INCREMENT for table `SliderHome`
+--
+ALTER TABLE `SliderHome`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `sliders`

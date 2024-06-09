@@ -43,28 +43,28 @@
             </select>
         </div>
         <div class="col-md-6">
+            <label>@lang('trans.age_group_ar')</label>
+            <input type="text" name="age_group_ar" placeholder="جميع الفئات العمرية" value="{{$Model->age_group_ar}}" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+            <label>@lang('trans.age_group_en')</label>
+            <input type="text" name="age_group_en" placeholder="All age groups" value="{{$Model->age_group_en}}" class="form-control" required>
+        </div>
+        <div class="col-md-6">
             <label>@lang('trans.age_range_ar')</label>
-            <input type="text" name="age_range_ar" placeholder="@lang('trans.age_range_ar')" value="{{$Model->age_range_ar}}" class="form-control" required>
+            <input type="text" name="age_range_ar" placeholder="2-سنة - 45 سنة" value="{{$Model->age_range_ar}}" class="form-control" required>
         </div>
         <div class="col-md-6">
             <label>@lang('trans.age_range_en')</label>
-            <input type="text" name="age_range_en" placeholder="@lang('trans.age_range_en')" value="{{$Model->age_range_en}}" class="form-control" required>
+            <input type="text" name="age_range_en" placeholder="2-year - 45 years" value="{{$Model->age_range_en}}" class="form-control" required>
         </div>
         <div class="col-md-6">
             <label>@lang('trans.sessions_count_ar')</label>
-            <input type="text" name="sessions_count_ar" placeholder="@lang('trans.sessions_count_ar')" value="{{$Model->sessions_count_ar}}" class="form-control" required>
+            <input type="text" name="sessions_count_ar" placeholder="4-6 حصص (60 دقيقة لكل حصة)" value="{{$Model->sessions_count_ar}}" class="form-control" required>
         </div>
         <div class="col-md-6">
             <label>@lang('trans.sessions_count_en')</label>
-            <input type="text" name="sessions_count_en" placeholder="@lang('trans.sessions_count_en')" value="{{$Model->sessions_count_en}}" class="form-control" required>
-        </div>
-        <div class="col-md-6">
-            <label>@lang('trans.session_duration_ar')</label>
-            <input type="text" name="session_duration_ar" placeholder="@lang('trans.session_duration_ar')" value="{{$Model->session_duration_ar}}" class="form-control" required>
-        </div>
-        <div class="col-md-6">
-            <label>@lang('trans.session_duration_en')</label>
-            <input type="text" name="session_duration_en" placeholder="@lang('trans.session_duration_en')" value="{{$Model->session_duration_en}}" class="form-control" required>
+            <input type="text" name="sessions_count_en" placeholder="4-6 Sessions (60 minutes per class)" value="{{$Model->sessions_count_en}}" class="form-control" required>
         </div>
 
         <div class="col-12">
