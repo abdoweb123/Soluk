@@ -20,24 +20,5 @@ class HomeController extends BasicController
     }
 
 
-    public function updateLocation(Request $request)
-    {
-        $this->checkAuth();
-
-        if( $this->Driver){
-            $driver = $this->Driver->update($request->all());
-            $response['token'] = request()->bearerToken();
-        }
-        else{
-            $client = $this->Client->update($request->all());
-            $response['token'] = request()->bearerToken();
-        }
-
-        Log::error('home ios', [
-            'response' => $response,
-        ]);
-
-        return ResponseHelper::make($response, __('trans.updatedSuccessfully'));
-    }
 
 }//end of class

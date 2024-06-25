@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="{{ asset('css/lineicons.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
     @yield('css')
     @stack('css')
     @if (lang('ar'))
@@ -62,14 +64,21 @@
                     <hr>
                     @include('slider::layouts.sidebar')
                     @include('sliderHome::layouts.sidebar')
+
                     <hr>
                     @include('service::layouts.sidebar')
                     @include('beneficiary::layouts.sidebar')
                     @include('center::layouts.sidebar')
-{{--                    @include('serviceDetail::layouts.sidebar')--}}
                     @include('program::layouts.sidebar')
-                    <hr>
 
+
+                    <hr>
+                    @include('specialist::layouts.sidebar')
+                    @include('parent::layouts.sidebar')
+                    @include('Admin.Children.layouts.sidebar')
+                    @include('Admin.Topics.layouts.sidebar')
+                    @include('Admin.ChildrenProgram.layouts.sidebar')
+                    <hr>
 
                     @include('setting::layouts.sidebar')
                     @include('admin::layouts.sidebar')
@@ -214,6 +223,19 @@
         });
     </script>
     <!-- ckeditor -->
+
+    <!-- select2 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.select2').select2();
+        });
+    </script>
+    <!-- select2 -->
+
     @yield('script')
 
     @yield('js')

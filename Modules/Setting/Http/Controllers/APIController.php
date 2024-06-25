@@ -16,12 +16,12 @@ class APIController extends BasicController
     public function contact()
     {
         $images = [
+            'address_c_img' => asset('icons/website.png'),
             'phone_img' => asset('icons/phone.png'),
             'email_img' => asset('icons/email.png'),
-            'address_c_img' => asset('icons/website.png'),
         ];
 
-        $keys = ['phone', 'email', 'address_c'];
+        $keys = [ 'address_c','phone', 'email'];
 
 
         $infoWithImages = Model::whereIn('key', $keys)
@@ -31,7 +31,10 @@ class APIController extends BasicController
                 $item['title'] = __('trans.'.$item['key']) ?? $item['key'];
                 $item['icon'] = $images[$item['key'] . '_img'] ?? null;
                 return $item;
-            });
+            }) ->sortBy(function ($item) use ($keys) {
+                return array_search($item['key'], $keys);
+            })
+            ->values(); // Reindex the collection;
 
 
         ResponseHelper::make([

@@ -1,0 +1,11 @@
+{
+    "name": "Specialist",
+    "alias": "specialist",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Specialist\\Providers\\SpecialistServiceProvider"
+    ],
+    "files": []
+}

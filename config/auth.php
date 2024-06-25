@@ -12,13 +12,9 @@ return [
             'driver' => 'session',
             'provider' => 'admins',
         ],
-        'driver' => [
+        'parent' => [
             'driver' => 'session',
-            'provider' => 'drivers',
-        ],
-        'client' => [
-            'driver' => 'session',
-            'provider' => 'clients',
+            'provider' => 'parents',
         ],
 
     ],
@@ -30,14 +26,8 @@ return [
             'expire' => 60,
             'throttle' => 60,
         ],
-        'drivers' => [
-            'provider' => 'drivers',
-            'table' => 'password_resets',
-            'expire' => 60,
-            'throttle' => 60,
-        ],
-        'clients' => [
-            'provider' => 'clients',
+        'parents' => [
+            'provider' => 'parents',
             'table' => 'password_resets',
             'expire' => 60,
             'throttle' => 60,
@@ -50,13 +40,9 @@ return [
             'driver' => 'eloquent',
             'model' => \Modules\Admin\Entities\Model::class,
         ],
-        'drivers' => [
+        'parents' => [
             'driver' => 'eloquent',
-            'model' => \Modules\Driver\Entities\Model::class,
-        ],
-        'clients' => [
-            'driver' => 'eloquent',
-            'model' => \Modules\Client\Entities\Model::class,
+            'model' => \Modules\Parent\Entities\Model::class,
         ],
 
     ],

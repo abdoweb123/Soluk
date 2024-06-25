@@ -14,7 +14,7 @@ use Modules\Client\Http\Requests\LoginRequest;
 use Modules\Client\Http\Requests\OldPasswordRequest;
 use Modules\Client\Http\Requests\RegisterRequest;
 use Modules\Client\Http\Requests\UpdateProfileRequest;
-use Modules\Client\Http\Resources\ClientResource;
+use Modules\Client\Http\Resources\SpecialistResource;
 use Modules\Country\Entities\Country;
 
 class APIController extends BasicController
@@ -43,7 +43,7 @@ class APIController extends BasicController
         ]);
 
         $response['token'] = $Model->createToken('ClientToken')->plainTextToken;
-        $response['client'] = ClientResource::make($Model);
+        $response['client'] = SpecialistResource::make($Model);
 
         return ResponseHelper::make($response, __('trans.loginSuccessfully'));
     }
@@ -87,7 +87,7 @@ class APIController extends BasicController
         ]);
 
         $success['token'] = $Model->createToken('ClientToken')->plainTextToken;
-        $success['client'] = ClientResource::make($Model);
+        $success['client'] = SpecialistResource::make($Model);
 
 
         return ResponseHelper::make($success, __('trans.addedSuccessfully'));
@@ -117,7 +117,7 @@ class APIController extends BasicController
 
         $this->CheckAuth();
         $response['token'] = request()->bearerToken();
-        $response['client'] = ClientResource::make($this->Client);
+        $response['client'] = SpecialistResource::make($this->Client);
 
         return ResponseHelper::make($response);
 
@@ -138,7 +138,7 @@ class APIController extends BasicController
         ]);
 
         $response['token'] = request()->bearerToken();
-        $response['client'] = ClientResource::make($Model->refresh());
+        $response['client'] = SpecialistResource::make($Model->refresh());
 
         return ResponseHelper::make($response, __('trans.updatedSuccessfully'));
     }
@@ -152,7 +152,7 @@ class APIController extends BasicController
         }
 
         $response['token'] = request()->bearerToken();
-        $response['client'] = ClientResource::make($Model->refresh());
+        $response['client'] = SpecialistResource::make($Model->refresh());
 
         return ResponseHelper::make($response, __('trans.updatedSuccessfully'));
     }
@@ -166,7 +166,7 @@ class APIController extends BasicController
         }
 
         $response['token'] = request()->bearerToken();
-        $response['client'] = ClientResource::make($Model);
+        $response['client'] = SpecialistResource::make($Model);
 
         return ResponseHelper::make($response, __('trans.updatedSuccessfully'));
 
@@ -179,7 +179,7 @@ class APIController extends BasicController
         $this->Client->password = bcrypt(request('password'));
         $this->Client->save();
         $response['token'] = request()->bearerToken();
-        $response['client'] = ClientResource::make($this->Client);
+        $response['client'] = SpecialistResource::make($this->Client);
 
         $this->Client->DeviceTokens()->where('device_token', request()->device_token)->delete();
         $this->Client->currentAccessToken()->delete();
@@ -198,7 +198,7 @@ class APIController extends BasicController
         }
         $response['exist'] = $Model ? 1 : 0;
         $response['token'] = $Model ? $Model->createToken('ClientToken')->plainTextToken : null;
-        $response['client'] = $Model ? ClientResource::make($Model) : null;
+        $response['client'] = $Model ? SpecialistResource::make($Model) : null;
 
         return ResponseHelper::make($response, $Model ? __('trans.already_exist') : __('trans.dont_exist'));
     }

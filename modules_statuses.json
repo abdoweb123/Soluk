@@ -11,5 +11,7 @@
 	"Beneficiary": true,
 	"Center": true,
 	"ServiceDetail": true,
-	"SliderHome": true
+	"SliderHome": true,
+	"Specialist": true,
+	"Parent": true
 }

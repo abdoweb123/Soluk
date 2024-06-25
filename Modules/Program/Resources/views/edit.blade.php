@@ -31,6 +31,15 @@
             <label for="file">{{ __('trans.file') }}</label>
             <input class="form-control w-100" id="file" type="file" name="file" onchange="document.getElementById('file').src = window.URL.createObjectURL(this.files[0])">
         </div>
+        <div class="col-md-6 col-sm-12">
+            <label for="file">{{ __('trans.specialist') }}</label>
+            <select name="specialist_id" class="form-control" required>
+                <option value="" selected>-----</option>
+                @foreach($specialists as $specialist)
+                    <option value="{{$specialist->id}}" {{$specialist->id == $Model->specialist_id ? 'selected' : ''}}>{{$specialist->name}}</option>
+                @endforeach
+            </select>
+        </div>
 
         <div class="col-12">
             <div class="button-group my-4">

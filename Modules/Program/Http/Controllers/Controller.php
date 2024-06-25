@@ -6,6 +6,7 @@ use App\Functions\Upload;
 use App\Http\Controllers\BasicController;
 use Illuminate\Http\Request;
 use Modules\Program\Entities\Model;
+use Modules\Specialist\Entities\Model as Specialist;
 
 class Controller extends BasicController
 {
@@ -18,7 +19,8 @@ class Controller extends BasicController
 
     public function create()
     {
-        return view('program::create');
+        $specialists = Specialist::query()->get();
+        return view('program::create',compact('specialists'));
     }
 
     public function store(Request $request)
@@ -29,6 +31,7 @@ class Controller extends BasicController
             'title_en' => 'required|string|max:255',
             'desc_ar' => 'required|string',
             'desc_en' => 'required|string',
+            'specialist_id' => 'required|exists:specialists,id',
         ]);
 
         $Model = Model::create($request->all());
@@ -51,8 +54,9 @@ class Controller extends BasicController
     public function edit($id)
     {
         $Model = Model::where('id', $id)->firstorfail();
+        $specialists = Specialist::query()->get();
 
-        return view('program::edit', compact('Model'));
+        return view('program::edit', compact('Model','specialists'));
     }
 
     public function update(Request $request, $id)
@@ -63,6 +67,7 @@ class Controller extends BasicController
             'title_en' => 'required|string|max:255',
             'desc_ar' => 'required|string',
             'desc_en' => 'required|string',
+            'specialist_id' => 'required|exists:specialists,id',
         ]);
 
         $Model = Model::where('id', $id)->firstorfail();

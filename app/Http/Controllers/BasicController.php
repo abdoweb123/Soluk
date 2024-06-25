@@ -26,26 +26,26 @@ class BasicController extends Controller
 
     public function CheckAuth()
     {
-        if (auth('sanctum')->check() && str_contains(get_class(auth('sanctum')->user()), 'Client')) {
-            $this->Client = auth('sanctum')->user();
-        } elseif (auth('sanctum')->check() && str_contains(get_class(auth('sanctum')->user()), 'Driver')) {
-            $this->Driver = auth('sanctum')->user();
+        if (auth('sanctum')->check() && str_contains(get_class(auth('sanctum')->user()), 'Admin')) {
+           return $this->Admin = auth('sanctum')->user();
+        } elseif (auth('sanctum')->check() && str_contains(get_class(auth('sanctum')->user()), 'Parent')) {
+            return $this->Parent = auth('sanctum')->user();
         }else{
-            return ResponseHelper::make([], __('trans.You not auth'), true, 404);
+            return ResponseHelper::make([], __('public.You not auth'), true, 404);
         }
     }
 
     public function CheckCount($Data)
     {
         if ($Data->count() < 1) {
-            return ResponseHelper::make([], __('trans.Data not found'), true, 404);
+            return ResponseHelper::make([], __('public.Data not found'), true, 404);
         }
     }
 
     public function CheckExist($Model)
     {
         if (! $Model) {
-            return ResponseHelper::make((object) [], __('trans.Data not found'), true, 404);
+            return ResponseHelper::make((object) [], __('public.Data not found'), true, 404);
         }
     }
 }

@@ -1,7 +1,11 @@
 <?php
 
 use App\Functions\PushNotification;
+use App\Http\Controllers\ChildrenController;
+use App\Http\Controllers\ChildrenProgramController;
+use App\Http\Controllers\TopicController;
 use App\Http\Controllers\webController;
+use App\Http\Middleware\Localization;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,6 +32,38 @@ Route::any('file-upload/upload-large-files', [webController::class, 'uploadLarge
 Route::get('/', function () {
     return redirect()->route('admin.home');
 });
+
+
+
+
+Route::group(['prefix' => 'admin', 'as' => 'admin.','middleware' => [Localization::class, 'auth:admin']], function () {
+    // Children
+    Route::resource('children', ChildrenController::class);
+
+    // Children Program
+    Route::group([ 'as' => 'children_programs.'], function () {
+        Route::get('children-programs/', [ChildrenProgramController::class, 'index'])->name('index');
+        Route::get('children-programs/create', [ChildrenProgramController::class, 'create'])->name('create');
+        Route::post('children-programs/store', [ChildrenProgramController::class, 'store'])->name('store');
+        Route::get('children-programs/edit/{child_id}/{program_id}', [ChildrenProgramController::class, 'edit'])->name('edit');
+        Route::post('children-programs/update/{child_id}/{program_id}', [ChildrenProgramController::class, 'update'])->name('update');
+        Route::get('children-programs/show/{child_program}', [ChildrenProgramController::class, 'show'])->name('show');
+        Route::post('children-programs/destroy/{child_id}', [ChildrenProgramController::class, 'destroy'])->name('destroy');
+    });
+
+    // Topics
+    Route::resource('topics', TopicController::class);
+
+
+});
+
+
+
+
+
+
+
+
 
 //
 //Route::get('/test', function () {

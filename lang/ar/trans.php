@@ -58,6 +58,7 @@ return [
     'contacts' => 'الاتصالات',
     'contact_us' => 'اتصل بنا',
     'name' => 'الاسم',
+    'full_name' => 'الاسم بالكامل',
     'message' => 'الرسالة',
     'whatsapp' => 'الواتساب',
     'address' => 'العنوان',
@@ -80,6 +81,29 @@ return [
     'age_group_en' => 'الفئة العمرية باللغة الانجليزية',
     'sessions_count_en' => 'عدد الجلسات باللغة الانجليزية',
     'session_duration_en' => 'مدة الجلسة باللغة الانجليزية',
+    'specialists' => 'المتخصصين',
+    'specialist' => 'متخصص',
+    'parents' => 'الآباء',
+    'parent' => 'الأب',
+    'id_number' => 'رقم الهوية',
+    'confirmPassword' => 'تأكيد كلمة المرور',
+    'image' => 'الصورة',
+    'birthdate' => 'تاريخ الميلاد',
+    'city' => 'المدينة',
+    'children' => 'الأطفال',
+    'child' => 'طفل',
+    'age' => 'السن',
+    'years' => 'سنوات',
+    'children_programs' => 'برامج الأطفال',
+    'topic' => 'موضوع',
+    'topics' => 'الموضوعات',
+    'add_topic' => 'إضافة موضوع',
+    'add_another_topic' => 'إضافة موضوع آخر',
+    'cant_delete_topic' => 'لا يمكن حذف هذا الموضع',
+    'At least one topic must remain.' => 'يجب أن يبقى موضوع واحد على الأقل.',
+    'Please add at least one topic.' => 'الرجاء إضافة موضوع واحد على الأقل.',
+
+
 
 ];
 

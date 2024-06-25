@@ -16,4 +16,10 @@ use Modules\Program\Http\Controllers\APIController;
 
 Route::prefix('/{lang}')->group(function () {
     Route::get('get/programs', [APIController::class, 'index']);
+    Route::prefix('programs')->group(function () {
+        Route::post('toggle-favorite', [APIController::class, 'toggleFavorite']);
+        Route::get('get-favorites', [APIController::class, 'getFavorites']);
+        Route::post('get-program-specialist', [APIController::class, 'getProgramSpecialist']);
+
+    });
 });
